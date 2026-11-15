@@ -1,6 +1,8 @@
 package com.visualdictionary.app
 
-import android.os.Bundle\nimport android.content.Intent\nimport android.net.Uri
+import android.os.Bundle
+import android.content.Intent
+import android.net.Uri
 import android.speech.tts.TextToSpeech
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -22,7 +24,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.*
 import androidx.datastore.preferences.core.*
 import androidx.datastore.preferences.preferencesDataStore
-import kotlinx.coroutines.flow.map\nimport kotlinx.coroutines.Dispatchers\nimport kotlinx.coroutines.withContext\nimport org.json.JSONObject\nimport java.net.HttpURLConnection\nimport java.net.URL
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import org.json.JSONObject
+import java.net.HttpURLConnection
+import java.net.URL
 import kotlinx.coroutines.launch
 import org.json.JSONArray
 import java.util.Locale
