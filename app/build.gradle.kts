@@ -14,7 +14,17 @@ android {
         versionName = "1.0"
         buildConfigField("String", "UPDATE_CHECK_URL", "\"https://raw.githubusercontent.com/IslomKhovaling/VisualEnglishDictionary/main/version.json\"")
     }
-    buildFeatures { compose = true; buildConfig = true }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+    buildFeatures {
+        compose = true
+        buildConfig = true
+    }
 }
 dependencies {
     implementation(platform("androidx.compose:compose-bom:2024.12.01"))
