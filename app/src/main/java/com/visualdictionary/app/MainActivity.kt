@@ -287,8 +287,22 @@ fun QuizScreen(words:List<Word>,index:Int,choice:Int?,score:Int,done:Boolean,onC
             Text("Выберите правильный перевод:",fontWeight=FontWeight.Bold,modifier=Modifier.padding(vertical=10.dp))
             options.forEachIndexed{i,w->
                 val isSelected=choice==w.id
-                OutlinedButton(onClick={onChoice(w.id)},Modifier.fillMaxWidth().padding(vertical=4.dp),enabled=choice==null) {
-                    Text(w.russian,Modifier.fillMaxWidth(),color=if(isSelected)MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface)
+                val isCorrect=w.id==current.id
+                val answerColor=if(choice!=null && isCorrect) Color(0xFF16834A) else if(isSelected) Color(0xFFD34B4B) else MaterialTheme.colorScheme.onSurface
+                OutlinedButton(onClick={onChoice(w.id)},Modifier.fillMaxWidth().padding(vertical=4.dp),enabled=choice==null,
+                    colors=ButtonDefaults.outlinedButtonColors(contentColor=answerColor)) {
+                    Text(w.russian,Modifier.fillMaxWidth(),color=answerColor)
+                    if(choice!=null && isCorrect) Icon(Icons.Default.Check,null,tint=answerColor)
+                    else if(isSelected && !isCorrect) Icon(Icons.Default.Close,null,tint=answerColor)
+                }
+            }
+            if(choice!=null) {
+                val correct=choice==current.id
+                Card(Modifier.fillMaxWidth().padding(vertical=8.dp),colors=CardDefaults.cardColors(containerColor=if(correct) Color(0xFFE4F5EA) else Color(0xFFFFE9E7))) {
+                    Column(Modifier.padding(12.dp)) {
+                        Text(if(correct) "Правильно!" else "Неверно",fontWeight=FontWeight.Bold,color=if(correct) Color(0xFF176B3A) else Color(0xFFB3261E))
+                        if(!correct) Text("Правильный ответ: ${current.russian}",color=Color(0xFF8F211B))
+                    }
                 }
             }
             Button(onClick=onNext,Modifier.fillMaxWidth(),enabled=choice!=null){Text(if(index==9)"Завершить" else "Далее")}
