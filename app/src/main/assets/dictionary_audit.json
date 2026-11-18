@@ -20,16 +20,17 @@
     "Флора и фауна": 357
   },
   "note": "Entries were extracted from PDF text layer. Layout-based parsing can leave partial or imperfect pairings; review records before public release.",
-  "unique_word_illustrations_created": 669,
-  "unique_word_illustrations_remaining": 2346,
+  "unique_word_illustrations_created": 678,
+  "unique_word_illustrations_remaining": 2337,
   "illustration_note": "Count reflects distinct word-specific image assets assigned to dictionary entries and present in drawable resources. New batches are mapped in dictionary order; visual semantic verification remains a separate review step.",
   "last_illustration_batch": {
-    "entries": "665-714",
-    "count": 50,
-    "asset_files_created": 50,
-    "missing_assets": 0
+    "entries": "1116-1124",
+    "count": 9,
+    "asset_files_created": 9,
+    "missing_assets": 0,
+    "note": "Nine dedicated Android VectorDrawable illustrations added and mapped to dictionary records. Semolina already had a dedicated image."
   },
-  "last_image_batch": "1065–1114",
+  "last_image_batch": "1116–1124",
   "last_image_batch_files_created": 50,
   "last_image_batch_note": "50 individual image files assigned to entries 1065–1114 from a 10x5 fruit, nut, dried fruit and grain collage; cropped in row-major order, mapping follows visible items and should be reviewed."
 }
