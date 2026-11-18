@@ -20,9 +20,9 @@
     "Флора и фауна": 357
   },
   "note": "Entries were extracted from PDF text layer. Layout-based parsing can leave partial or imperfect pairings; review records before public release.",
-  "unique_word_illustrations_created": 1104,
-  "unique_word_illustrations_remaining": 1911,
-  "illustration_note": "Exact repository audit: count of distinct drawable resource identifiers referenced by dictionary entries. This is a technical uniqueness count, not a semantic quality certification. Reused identifiers and their entry counts are listed below.",
+  "unique_word_illustrations_created": 1093,
+  "unique_word_illustrations_remaining": 1922,
+  "illustration_note": "Count of distinct non-generic drawable identifiers assigned to dictionary entries. This measures technical asset uniqueness only; it does not certify that each image accurately depicts its word. Generic shared illustrations are excluded.",
   "last_illustration_batch": {
     "entries": "1135-1144",
     "count": 10,
@@ -363,6 +363,54 @@
     ],
     "unique_image_ids": 1104,
     "entries_without_image": 0,
-    "missing_drawable_references": 0
+    "missing_drawable_references": 0,
+    "unique_non_generic_image_ids": 1093,
+    "remaining_entries_without_distinct_non_generic_illustration": 1922,
+    "generic_shared_image_ids": [
+      {
+        "image": "basketball",
+        "entries": 401
+      },
+      {
+        "image": "family",
+        "entries": 325
+      },
+      {
+        "image": "fruit_bowl",
+        "entries": 316
+      },
+      {
+        "image": "tree",
+        "entries": 216
+      },
+      {
+        "image": "car",
+        "entries": 207
+      },
+      {
+        "image": "camera",
+        "entries": 198
+      },
+      {
+        "image": "briefcase",
+        "entries": 118
+      },
+      {
+        "image": "living_room",
+        "entries": 52
+      },
+      {
+        "image": "front_door",
+        "entries": 20
+      },
+      {
+        "image": "house",
+        "entries": 7
+      },
+      {
+        "image": "apartment",
+        "entries": 3
+      }
+    ]
   }
 }
