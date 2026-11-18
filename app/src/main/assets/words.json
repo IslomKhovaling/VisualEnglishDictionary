@@ -150,7 +150,7 @@
     "ipa": "[nek]",
     "pronunciation": "нэ́к",
     "russian": "шея",
-    "image": "man"
+    "image": "word_neck"
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
     "ipa": "[brest]",
     "pronunciation": "брэст",
     "russian": "грудь",
-    "image": "man"
+    "image": "word_breast"
   },
   {
     "id": 19,
@@ -339,7 +339,7 @@
     "ipa": "",
     "pronunciation": "",
     "russian": "туристический автобус",
-    "image": "car"
+    "image": "word_tourist_bus"
   },
   {
     "id": 39,
@@ -366,7 +366,7 @@
     "ipa": "",
     "pronunciation": "",
     "russian": "волейбол",
-    "image": "basketball"
+    "image": "word_volleyball"
   },
   {
     "id": 42,
@@ -510,7 +510,7 @@
     "ipa": "[kiː]",
     "pronunciation": "ки:",
     "russian": "ключ",
-    "image": "front_door"
+    "image": "word_key"
   },
   {
     "id": 58,
@@ -519,7 +519,7 @@
     "ipa": "[lɒk]",
     "pronunciation": "лок",
     "russian": "замок",
-    "image": "front_door"
+    "image": "word_lock"
   },
   {
     "id": 59,
@@ -546,7 +546,7 @@
     "ipa": "[ˈpeɪntɪŋ]",
     "pronunciation": "пэ́йнтинг",
     "russian": "картина",
-    "image": "living_room"
+    "image": "word_painting"
   },
   {
     "id": 62,
@@ -564,7 +564,7 @@
     "ipa": "[ˈkæbɪnət]",
     "pronunciation": "кэ́бинэт",
     "russian": "сервант",
-    "image": "living_room"
+    "image": "word_cabinet"
   },
   {
     "id": 64,
@@ -735,7 +735,7 @@
     "ipa": "[ˈbʊkʃelf]",
     "pronunciation": "бу́кшелф",
     "russian": "книжная полка",
-    "image": "living_room"
+    "image": "word_bookshelf"
   },
   {
     "id": 83,
@@ -998,7 +998,7 @@
     "ipa": "teIbl",
     "pronunciation": "тэйбл",
     "russian": "стол",
-    "image": "living_room",
+    "image": "word_table",
     "source_page": 18
   },
   {
@@ -11978,7 +11978,7 @@
     "ipa": "swÖts",
     "pronunciation": "суи2:тс",
     "russian": "конфеты",
-    "image": "fruit_bowl",
+    "image": "word_sweets",
     "source_page": 113
   },
   {
@@ -12218,7 +12218,7 @@
     "ipa": "'beIk@rI",
     "pronunciation": "бэ2йкэри",
     "russian": "булочная",
-    "image": "fruit_bowl",
+    "image": "word_bakery",
     "source_page": 114
   },
   {
@@ -12588,7 +12588,7 @@
     "ipa": "h{m",
     "pronunciation": "хэм",
     "russian": "ветчина",
-    "image": "fruit_bowl",
+    "image": "word_ham",
     "source_page": 117
   },
   {
@@ -12668,7 +12668,7 @@
     "ipa": "'sn{k\"b¸",
     "pronunciation": "снэк ба:",
     "russian": "закусочная",
-    "image": "fruit_bowl",
+    "image": "word_snack_bar",
     "source_page": 120
   },
   {
@@ -13008,7 +13008,7 @@
     "ipa": "sküp",
     "pronunciation": "ску:п",
     "russian": "шарик",
-    "image": "fruit_bowl",
+    "image": "word_scoop",
     "source_page": 122
   },
   {
@@ -13528,7 +13528,7 @@
     "ipa": "'waIngl¸s",
     "pronunciation": "уа2йнгла:с",
     "russian": "рюмка",
-    "image": "fruit_bowl",
+    "image": "word_wineglass",
     "source_page": 127
   },
   {
@@ -13548,7 +13548,7 @@
     "ipa": "pleIt",
     "pronunciation": "плэйт",
     "russian": "тарелка",
-    "image": "fruit_bowl",
+    "image": "word_plate",
     "source_page": 128
   },
   {
@@ -13558,7 +13558,7 @@
     "ipa": "spün",
     "pronunciation": "спу:н",
     "russian": "столовая ложка",
-    "image": "fruit_bowl",
+    "image": "word_spoon",
     "source_page": 128
   },
   {
@@ -14018,7 +14018,7 @@
     "ipa": "'tÖpÁt",
     "pronunciation": "ти2:пот",
     "russian": "чайник",
-    "image": "fruit_bowl",
+    "image": "word_teapot",
     "source_page": 132
   },
   {
@@ -14118,7 +14118,7 @@
     "ipa": "fraId\"egzwID'beIk@n",
     "pronunciation": "фрайд эгз уи2з бэ2йкэн",
     "russian": "яичница с беконом",
-    "image": "fruit_bowl",
+    "image": "word_bacon",
     "source_page": 133
   },
   {
@@ -14248,7 +14248,7 @@
     "ipa": "'dresIÎ",
     "pronunciation": "дрэ2синг",
     "russian": "заправка для салата",
-    "image": "fruit_bowl",
+    "image": "word_dressing",
     "source_page": 134
   },
   {
@@ -14678,7 +14678,7 @@
     "ipa": "'köst@m@",
     "pronunciation": "ка2стэмэ",
     "russian": "клиент",
-    "image": "briefcase",
+    "image": "word_customer",
     "source_page": 140
   },
   {
@@ -14688,7 +14688,7 @@
     "ipa": "'kredIt\"k¸d",
     "pronunciation": "крэ2дит ка:д",
     "russian": "кредитная карточка",
-    "image": "briefcase",
+    "image": "word_credit_card",
     "source_page": 140
   },
   {
@@ -14988,7 +14988,7 @@
     "ipa": "rI'sepSnIst",
     "pronunciation": "рисэ2пшнист",
     "russian": "портье",
-    "image": "briefcase",
+    "image": "word_receptionist",
     "source_page": 142
   },
   {
@@ -15508,7 +15508,7 @@
     "ipa": "'stre¶@",
     "pronunciation": "стрэ2чэ",
     "russian": "носилки",
-    "image": "briefcase",
+    "image": "word_stretcher",
     "source_page": 147
   },
   {
@@ -15638,7 +15638,7 @@
     "ipa": "'jünIfþm",
     "pronunciation": "ю2:нифо:м",
     "russian": "форма",
-    "image": "briefcase",
+    "image": "word_uniform",
     "source_page": 148
   },
   {
@@ -16478,7 +16478,7 @@
     "ipa": "'bömp@",
     "pronunciation": "ба2мпэ",
     "russian": "бампер",
-    "image": "car",
+    "image": "word_bumper",
     "source_page": 158
   },
   {
@@ -18778,7 +18778,7 @@
     "ipa": "k@n'dökt@",
     "pronunciation": "кэнда2ктэ",
     "russian": "дирижёр",
-    "image": "camera",
+    "image": "word_conductor",
     "source_page": 180
   },
   {
@@ -18908,7 +18908,7 @@
     "ipa": "'spÖk@",
     "pronunciation": "спи2:кэ",
     "russian": "усилитель",
-    "image": "camera",
+    "image": "word_speaker",
     "source_page": 181
   },
   {
@@ -19088,7 +19088,7 @@
     "ipa": "n@Uts",
     "pronunciation": "но2утс",
     "russian": "ноты",
-    "image": "camera",
+    "image": "word_notes",
     "source_page": 182
   },
   {
@@ -19958,7 +19958,7 @@
     "ipa": "trÖ",
     "pronunciation": "три:",
     "russian": "дерево",
-    "image": "camera",
+    "image": "tree",
     "source_page": 189
   },
   {
@@ -20208,7 +20208,7 @@
     "ipa": "speId",
     "pronunciation": "спэйд",
     "russian": "совок",
-    "image": "camera",
+    "image": "word_spade",
     "source_page": 191
   },
   {
@@ -20938,7 +20938,7 @@
     "ipa": "SÆ:t",
     "pronunciation": "шё:т",
     "russian": "форма",
-    "image": "basketball",
+    "image": "word_shirt",
     "source_page": 198
   },
   {
@@ -21268,7 +21268,7 @@
     "ipa": "hed",
     "pronunciation": "хэд",
     "russian": "головка",
-    "image": "basketball",
+    "image": "word_head",
     "source_page": 202
   },
   {
@@ -21858,7 +21858,7 @@
     "ipa": "bleId",
     "pronunciation": "блэйд",
     "russian": "клинок",
-    "image": "basketball",
+    "image": "word_blade",
     "source_page": 207
   },
   {
@@ -22648,7 +22648,7 @@
     "ipa": "k{p",
     "pronunciation": "кэп",
     "russian": "шапочка",
-    "image": "basketball",
+    "image": "word_cap",
     "source_page": 213
   },
   {
@@ -23448,7 +23448,7 @@
     "ipa": "¶Áp",
     "pronunciation": "чоп",
     "russian": "тычковый удар",
-    "image": "basketball",
+    "image": "word_chop",
     "source_page": 220
   },
   {
@@ -25998,7 +25998,7 @@
     "ipa": "templ",
     "pronunciation": "тэмпл",
     "russian": "храм",
-    "image": "tree",
+    "image": "word_temple",
     "source_page": 244
   },
   {
@@ -27258,7 +27258,7 @@
     "ipa": "l{m",
     "pronunciation": "лэм",
     "russian": "ягнёнок",
-    "image": "family",
+    "image": "word_lamb",
     "source_page": 254
   },
   {
@@ -27668,7 +27668,7 @@
     "ipa": "'tÆ:kI",
     "pronunciation": "тё:ки",
     "russian": "индюк",
-    "image": "front_door",
+    "image": "word_turkey",
     "source_page": 257
   },
   {
@@ -27818,7 +27818,7 @@
     "ipa": "'¶IkIn",
     "pronunciation": "чи2кин",
     "russian": "цыплёнок",
-    "image": "family",
+    "image": "word_chicken",
     "source_page": 259
   },
   {
@@ -28388,7 +28388,7 @@
     "ipa": "skeIt",
     "pronunciation": "скэйт",
     "russian": "гладкий скат",
-    "image": "family",
+    "image": "word_skate",
     "source_page": 263
   },
   {
@@ -28468,7 +28468,7 @@
     "ipa": "skeIlz",
     "pronunciation": "скэйлз",
     "russian": "костная чешуя",
-    "image": "family",
+    "image": "word_scales",
     "source_page": 264
   },
   {
@@ -28768,7 +28768,7 @@
     "ipa": "stIÎ",
     "pronunciation": "стинг",
     "russian": "жало",
-    "image": "family",
+    "image": "word_sting",
     "source_page": 265
   },
   {
@@ -28808,7 +28808,7 @@
     "ipa": "mösl",
     "pronunciation": "масл",
     "russian": "мидия",
-    "image": "family",
+    "image": "word_mussel",
     "source_page": 266
   },
   {
@@ -29178,7 +29178,7 @@
     "ipa": "k@Un",
     "pronunciation": "ко2ун",
     "russian": "шишка",
-    "image": "family",
+    "image": "word_cone",
     "source_page": 268
   },
   {
@@ -29278,7 +29278,7 @@
     "ipa": "laIm",
     "pronunciation": "лайм",
     "russian": "липа",
-    "image": "family",
+    "image": "word_lime",
     "source_page": 269
   },
   {
@@ -29388,7 +29388,7 @@
     "ipa": "p¸m",
     "pronunciation": "па:м",
     "russian": "пальма",
-    "image": "family",
+    "image": "word_palm",
     "source_page": 270
   },
   {

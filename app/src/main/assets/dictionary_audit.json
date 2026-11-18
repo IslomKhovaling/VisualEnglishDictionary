@@ -20,9 +20,9 @@
     "Флора и фауна": 357
   },
   "note": "Entries were extracted from PDF text layer. Layout-based parsing can leave partial or imperfect pairings; review records before public release.",
-  "unique_word_illustrations_created": 698,
-  "unique_word_illustrations_remaining": 2317,
-  "illustration_note": "Count reflects distinct word-specific image assets assigned to dictionary entries and present in drawable resources. New batches are mapped in dictionary order; visual semantic verification remains a separate review step.",
+  "unique_word_illustrations_created": 1104,
+  "unique_word_illustrations_remaining": 1911,
+  "illustration_note": "Exact repository audit: count of distinct drawable resource identifiers referenced by dictionary entries. This is a technical uniqueness count, not a semantic quality certification. Reused identifiers and their entry counts are listed below.",
   "last_illustration_batch": {
     "entries": "1135-1144",
     "count": 10,
@@ -32,5 +32,337 @@
   },
   "last_image_batch": "1135–1144",
   "last_image_batch_files_created": 50,
-  "last_image_batch_note": "50 individual image files assigned to entries 1065–1114 from a 10x5 fruit, nut, dried fruit and grain collage; cropped in row-major order, mapping follows visible items and should be reviewed."
+  "last_image_batch_note": "50 individual image files assigned to entries 1065–1114 from a 10x5 fruit, nut, dried fruit and grain collage; cropped in row-major order, mapping follows visible items and should be reviewed.",
+  "illustration_audit": {
+    "dictionary_entries": 3015,
+    "drawable_resources": 1121,
+    "entries_remapped_to_existing_word_specific_assets": 48,
+    "remaining_shared_resource_ids": [
+      {
+        "image": "basketball",
+        "entries": 401
+      },
+      {
+        "image": "family",
+        "entries": 325
+      },
+      {
+        "image": "fruit_bowl",
+        "entries": 316
+      },
+      {
+        "image": "tree",
+        "entries": 216
+      },
+      {
+        "image": "car",
+        "entries": 207
+      },
+      {
+        "image": "camera",
+        "entries": 198
+      },
+      {
+        "image": "briefcase",
+        "entries": 118
+      },
+      {
+        "image": "living_room",
+        "entries": 52
+      },
+      {
+        "image": "front_door",
+        "entries": 20
+      },
+      {
+        "image": "house",
+        "entries": 7
+      },
+      {
+        "image": "apartment",
+        "entries": 3
+      }
+    ],
+    "all_reused_image_ids": [
+      {
+        "image": "basketball",
+        "entries": 401
+      },
+      {
+        "image": "family",
+        "entries": 325
+      },
+      {
+        "image": "fruit_bowl",
+        "entries": 316
+      },
+      {
+        "image": "tree",
+        "entries": 216
+      },
+      {
+        "image": "car",
+        "entries": 207
+      },
+      {
+        "image": "camera",
+        "entries": 198
+      },
+      {
+        "image": "briefcase",
+        "entries": 118
+      },
+      {
+        "image": "living_room",
+        "entries": 52
+      },
+      {
+        "image": "front_door",
+        "entries": 20
+      },
+      {
+        "image": "house",
+        "entries": 7
+      },
+      {
+        "image": "word_stretcher",
+        "entries": 3
+      },
+      {
+        "image": "apartment",
+        "entries": 3
+      },
+      {
+        "image": "word_wall",
+        "entries": 2
+      },
+      {
+        "image": "word_window",
+        "entries": 2
+      },
+      {
+        "image": "word_temple",
+        "entries": 2
+      },
+      {
+        "image": "word_head",
+        "entries": 2
+      },
+      {
+        "image": "word_neck",
+        "entries": 2
+      },
+      {
+        "image": "word_tourist_bus",
+        "entries": 2
+      },
+      {
+        "image": "word_volleyball",
+        "entries": 2
+      },
+      {
+        "image": "word_lock",
+        "entries": 2
+      },
+      {
+        "image": "word_painting",
+        "entries": 2
+      },
+      {
+        "image": "word_bookshelf",
+        "entries": 2
+      },
+      {
+        "image": "word_table",
+        "entries": 2
+      },
+      {
+        "image": "word_wineglass",
+        "entries": 2
+      },
+      {
+        "image": "word_plate",
+        "entries": 2
+      },
+      {
+        "image": "word_teapot",
+        "entries": 2
+      },
+      {
+        "image": "word_spoon",
+        "entries": 2
+      },
+      {
+        "image": "word_blade",
+        "entries": 2
+      },
+      {
+        "image": "word_knife_sharpener",
+        "entries": 2
+      },
+      {
+        "image": "word_scoop",
+        "entries": 2
+      },
+      {
+        "image": "word_scales",
+        "entries": 2
+      },
+      {
+        "image": "word_bumper",
+        "entries": 2
+      },
+      {
+        "image": "word_screwdriver",
+        "entries": 2
+      },
+      {
+        "image": "word_electric_drill",
+        "entries": 2
+      },
+      {
+        "image": "word_nail",
+        "entries": 2
+      },
+      {
+        "image": "word_spade",
+        "entries": 2
+      },
+      {
+        "image": "word_palm",
+        "entries": 2
+      },
+      {
+        "image": "word_handkerchief",
+        "entries": 2
+      },
+      {
+        "image": "word_dressing",
+        "entries": 2
+      },
+      {
+        "image": "word_sting",
+        "entries": 2
+      },
+      {
+        "image": "word_receptionist",
+        "entries": 2
+      },
+      {
+        "image": "word_conductor",
+        "entries": 2
+      },
+      {
+        "image": "word_uniform",
+        "entries": 2
+      },
+      {
+        "image": "word_speaker",
+        "entries": 2
+      },
+      {
+        "image": "word_notes",
+        "entries": 2
+      },
+      {
+        "image": "word_cone",
+        "entries": 2
+      },
+      {
+        "image": "word_customer",
+        "entries": 2
+      },
+      {
+        "image": "word_shopping_bag",
+        "entries": 2
+      },
+      {
+        "image": "word_shop_sign",
+        "entries": 2
+      },
+      {
+        "image": "word_belt",
+        "entries": 2
+      },
+      {
+        "image": "word_shirt",
+        "entries": 2
+      },
+      {
+        "image": "word_scarf",
+        "entries": 2
+      },
+      {
+        "image": "word_cap",
+        "entries": 2
+      },
+      {
+        "image": "word_credit_card",
+        "entries": 2
+      },
+      {
+        "image": "word_bakery",
+        "entries": 2
+      },
+      {
+        "image": "word_snack_bar",
+        "entries": 2
+      },
+      {
+        "image": "word_sweets",
+        "entries": 2
+      },
+      {
+        "image": "word_chocolate_bar",
+        "entries": 2
+      },
+      {
+        "image": "word_lamb",
+        "entries": 2
+      },
+      {
+        "image": "word_bacon",
+        "entries": 2
+      },
+      {
+        "image": "word_ham",
+        "entries": 2
+      },
+      {
+        "image": "word_chop",
+        "entries": 2
+      },
+      {
+        "image": "word_rind",
+        "entries": 2
+      },
+      {
+        "image": "word_chicken",
+        "entries": 2
+      },
+      {
+        "image": "word_turkey",
+        "entries": 2
+      },
+      {
+        "image": "word_skate",
+        "entries": 2
+      },
+      {
+        "image": "word_mussel",
+        "entries": 2
+      },
+      {
+        "image": "word_gooseberry",
+        "entries": 2
+      },
+      {
+        "image": "word_lime",
+        "entries": 2
+      }
+    ],
+    "unique_image_ids": 1104,
+    "entries_without_image": 0,
+    "missing_drawable_references": 0
+  }
 }
