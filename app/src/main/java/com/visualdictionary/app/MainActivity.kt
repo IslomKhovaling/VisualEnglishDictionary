@@ -157,7 +157,7 @@ fun DictionaryApp(words:List<Word>,speak:(String)->Unit) {
                 if(selected!=null) {
                     WordDetail(selected!!,favorites.contains(selected!!.id.toString()),{id->scope.launch{context.dataStore.edit{p->val set=(p[FAVORITES]?:emptySet()).toMutableSet();if(id.toString() in set)set.remove(id.toString()) else set.add(id.toString());p[FAVORITES]=set}}},speak,{selected=null},fontScale)
                 } else when(tab) {
-                    0 -> HomeScreen(words,learned,{tab=1;category="Все темы"},{tab=3},{tab=4},{tab=2})
+                    0 -> HomeScreen(words,learned,{c->tab=1;category=c},{tab=3},{tab=4},{tab=2})
                     1 -> {
                         Text("Словарь",style=MaterialTheme.typography.headlineSmall,fontWeight=FontWeight.Bold,modifier=Modifier.padding(top=12.dp))
                         OutlinedTextField(query,{query=it},Modifier.fillMaxWidth().padding(top=8.dp),placeholder={Text("Поиск на английском или русском")},leadingIcon={Icon(Icons.Default.Search,null)},singleLine=true)
@@ -199,16 +199,16 @@ fun DictionaryApp(words:List<Word>,speak:(String)->Unit) {
 }
 
 @Composable
-fun HomeScreen(words:List<Word>,learned:Int,openDictionary:()->Unit,openCards:()->Unit,openQuiz:()->Unit,openFavorites:()->Unit) {
+fun HomeScreen(words:List<Word>,learned:Int,openDictionary:(String)->Unit,openCards:()->Unit,openQuiz:()->Unit,openFavorites:()->Unit) {
     Column(Modifier.fillMaxSize()) {
         Text("Англо-русский визуальный словарь",style=MaterialTheme.typography.headlineSmall,fontWeight=FontWeight.Bold,modifier=Modifier.padding(top=14.dp))
         Text("Слова • транскрипция • произношение",color=Color.Gray)
-        OutlinedButton(onClick=openDictionary,Modifier.fillMaxWidth().padding(top=12.dp)){Icon(Icons.Default.Search,null);Text("  Найти слово")}
+        OutlinedButton(onClick={openDictionary("Все темы")},Modifier.fillMaxWidth().padding(top=12.dp)){Icon(Icons.Default.Search,null);Text("  Найти слово")}
         Text("Тематические разделы",style=MaterialTheme.typography.titleLarge,fontWeight=FontWeight.Bold,modifier=Modifier.padding(vertical=10.dp))
         LazyColumn(verticalArrangement=Arrangement.spacedBy(8.dp),modifier=Modifier.weight(1f)) {
             items(categories){c->
                 val count=words.count{it.category==c}
-                Card(onClick=openDictionary,shape=RoundedCornerShape(16.dp),modifier=Modifier.fillMaxWidth()) {
+                Card(onClick={openDictionary(c)},shape=RoundedCornerShape(16.dp),modifier=Modifier.fillMaxWidth()) {
                     Row(Modifier.padding(14.dp),verticalAlignment=Alignment.CenterVertically) {
                         Icon(Icons.Default.CollectionsBookmark,null,tint=Color(0xFF2864D8),modifier=Modifier.size(30.dp))
                         Column(Modifier.weight(1f).padding(start=12.dp)){Text(c,fontWeight=FontWeight.Bold);Text("$count слов в текущей базе",color=Color.Gray,fontSize=12.sp)}
@@ -229,7 +229,7 @@ fun HomeScreen(words:List<Word>,learned:Int,openDictionary:()->Unit,openCards:()
 fun WordImage(w:Word,modifier:Modifier=Modifier) {
     val ctx=LocalContext.current
     val id=ctx.resources.getIdentifier(w.image,"drawable",ctx.packageName)
-    if(id!=0) Image(painterResource(id),contentDescription=w.english,modifier=modifier,contentScale=ContentScale.Fit)
+    if(id!=0) Image(painterResource(id),contentDescription=w.english,modifier=modifier,contentScale=ContentScale.Fit) else Box(modifier.background(MaterialTheme.colorScheme.surfaceVariant, RoundedCornerShape(12.dp)),contentAlignment=Alignment.Center){Text(w.english,color=MaterialTheme.colorScheme.onSurfaceVariant,fontWeight=FontWeight.Medium)}
 }
 
 @Composable
